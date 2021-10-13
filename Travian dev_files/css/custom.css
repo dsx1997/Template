@@ -1,0 +1,134 @@
+.buyGoldInfoStep {
+    width: 100%;
+    height: 70px;
+    grid-column-start: auto;
+    transition-property: width,height;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+
+    width: 241px;
+    height: 69px;
+    background-image: url(../images/infoArrow-ltr.png);
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.buyGoldInfoStepNumber {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: #eae0af;
+    line-height: 69px;
+    right: 50px;
+}
+.buyGoldInfoStepletter {
+    position: relative;
+    top: 18px;
+    left: 25px;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.active {
+    background-position: 0px -79px;
+}
+
+
+
+
+
+.featureContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.featureContent_p1 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.button-content {
+    display: flex;
+    width: 70px;
+}
+.goldValue {
+    margin-left: 10px;
+}
+
+.featureTitlef1 {
+    margin: 0px 20px 10px 0px;
+    width: 70%;
+}
+.featureTitle {
+    margin: 0px 20px 0px 0px;
+    width: 50%;
+}
+.featureTitlet3 {
+    margin: 0px 20px 0px 30px;
+    width: 10%;
+}
+
+.featureButtonSubtitle {
+    margin:10px 10px 0px 0px;
+    /*text-align: center;*/
+}
+.bold {
+    display: inline;
+}
+.featureButton {
+    width: 35%;
+}
+
+
+.titlet3 {
+    text-align: center;
+    margin-top: 30px;
+}
+.featureData {
+    display: flex;
+    border: 1px solid #C0C0C0;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.featureBuyButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 10px 20px;
+    position: relative;
+    left: 50px;
+}
+
+.unitSection {
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

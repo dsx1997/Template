@@ -1,0 +1,302 @@
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper
+{
+height:440px;
+-ms-grid-columns:270px 1fr;
+grid-template-columns:270px 1fr;
+-ms-grid-rows:1fr;
+grid-template-rows:1fr
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper *
+{
+box-sizing:border-box
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea
+{
+-ms-grid-column:1;
+grid-column-start:1;
+-ms-grid-row:1;
+grid-row-start:1;
+height: 450px;
+ position:relative;
+box-shadow:0 3px 3px 0 rgba(190,174,154,.8)
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature
+{
+position:absolute;
+width:100%;
+padding:15px 15px 10px;
+height:100%;
+border:2px solid #beae9a;
+border-radius:2px;
+background-color:#faf6ea;
+opacity:0;
+transition-duration:.5s;
+transition-timing-function:ease-out
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.show
+{
+opacity:1
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature h4
+{
+color:#5e463a;
+font-size:24px;
+line-height:24px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul
+{
+padding-left:15px;
+margin-bottom:0
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul li
+{
+margin-bottom:10px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature .featureImage
+{
+margin:10px auto 0
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.goldclub .descriptionWrapper
+{
+min-height:292px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.goldclub .featureImage
+{
+background-image:url(../img_ltr/views/shop/goldClub_huge.png);
+width:100px;
+height:73px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.plus .descriptionWrapper
+{
+min-height:285px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.plus .featureImage
+{
+background-image:url(../img_ltr/views/shop/travianPlus_huge.png);
+width:100px;
+height:80px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostWood .descriptionWrapper
+{
+min-height:292px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostWood .featureImage
+{
+background-image:url(../img_ltr/general/resources/lumber_huge.png);
+width:100px;
+height:73px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostClay .descriptionWrapper
+{
+min-height:300px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostClay .featureImage
+{
+background-image:url(../img_ltr/general/resources/clay_huge.png);
+width:100px;
+height:65px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostIron .descriptionWrapper
+{
+min-height:296px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostIron .featureImage
+{
+background-image:url(../img_ltr/general/resources/iron_huge.png);
+width:100px;
+height:69px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostCrop .descriptionWrapper
+{
+min-height:274px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostCrop .featureImage
+{
+background-image:url(../img_ltr/general/resources/crop_huge.png);
+width:100px;
+height:91px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .contentArea
+{
+-ms-grid-column:2;
+grid-column-start:2;
+-ms-grid-row:1;
+grid-row-start:1;
+padding-left:5px
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .contentArea .paymentPopupDialogWrapper
+{
+height:100%;
+position:relative
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .contentArea #featureIndicator
+{
+width:34px;
+height:41px;
+position:absolute;
+top:14px;
+left:-20px;
+background-image:url(../img_ltr/hud/content/scrollTo.png);
+z-index:99;
+transform:translateX(0) scale(1);
+transform-origin:left;
+transition:transform 150ms
+}
+.dialog.paymentShopV4 #paymentWizard.paymentFeatures .contentWrapper .contentArea #featureIndicator.moving
+{
+transform:translateX(-10px) scale(.8)
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper
+{
+height:440px;
+-ms-grid-columns:270px 1fr;
+grid-template-columns:270px 1fr;
+-ms-grid-rows:1fr;
+grid-template-rows:1fr
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper *
+{
+box-sizing:border-box
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea
+{
+-ms-grid-column:1;
+grid-column-start:1;
+-ms-grid-row:1;
+grid-row-start:1;
+position:relative;
+box-shadow:0 3px 3px 0 rgba(190,174,154,.8)
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature
+{
+position:absolute;
+width:100%;
+padding:15px 15px 10px;
+height:100%;
+border:2px solid #beae9a;
+border-radius:2px;
+background-color:#faf6ea;
+opacity:0;
+transition-duration:.5s;
+transition-timing-function:ease-out
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.show
+{
+opacity:1
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature h4
+{
+color:#5e463a;
+font-size:24px;
+line-height:24px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul
+{
+padding-left:15px;
+margin-bottom:0
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul li
+{
+margin-bottom:10px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature .featureImage
+{
+margin:10px auto 0
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.goldclub .descriptionWrapper
+{
+min-height:292px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.goldclub .featureImage
+{
+background-image:url(../img_ltr/views/shop/goldClub_huge.png);
+width:100px;
+height:73px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.plus .descriptionWrapper
+{
+min-height:285px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.plus .featureImage
+{
+background-image:url(../img_ltr/views/shop/travianPlus_huge.png);
+width:100px;
+height:80px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostWood .descriptionWrapper
+{
+min-height:292px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostWood .featureImage
+{
+background-image:url(../img_ltr/general/resources/lumber_huge.png);
+width:100px;
+height:73px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostClay .descriptionWrapper
+{
+min-height:300px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostClay .featureImage
+{
+background-image:url(../img_ltr/general/resources/clay_huge.png);
+width:100px;
+height:65px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostIron .descriptionWrapper
+{
+min-height:296px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostIron .featureImage
+{
+background-image:url(../img_ltr/general/resources/iron_huge.png);
+width:100px;
+height:69px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostCrop .descriptionWrapper
+{
+min-height:274px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .infoArea .premiumFeature.productionboostCrop .featureImage
+{
+background-image:url(../img_ltr/general/resources/crop_huge.png);
+width:100px;
+height:91px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .contentArea
+{
+-ms-grid-column:2;
+grid-column-start:2;
+-ms-grid-row:1;
+grid-row-start:1;
+padding-left:5px
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .contentArea .paymentPopupDialogWrapper
+{
+height:100%;
+position:relative
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .contentArea #featureIndicator
+{
+width:34px;
+height:41px;
+position:absolute;
+top:14px;
+left:-20px;
+background-image:url(../img_ltr/hud/content/scrollTo.png);
+z-index:99;
+transform:translateX(0) scale(1);
+transform-origin:left;
+transition:transform 150ms
+}
+.dialog.paymentShopV4 #paymentWizard.earnGold .contentWrapper .contentArea #featureIndicator.moving
+{
+transform:translateX(-10px) scale(.8)
+}
+
+
+{
+
+	
+
+}
