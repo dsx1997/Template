@@ -1,3 +1,19 @@
+
+.contentArea::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.contentArea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #171717; 
+  border-radius: 7px;
+}
+ 
+/* Handle */
+.contentArea::-webkit-scrollbar-thumb {
+  background: #564034; 
+  border-radius: 5px;
+}
 .buyGoldInfoStep {
     width: 100%;
     height: 70px;
@@ -104,7 +120,9 @@
     position: relative;
     left: 20px;
 }
-
+.contentWrapper {
+    padding-right: 0px;
+}
 
 
 
